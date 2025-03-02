@@ -13,7 +13,7 @@ const io = new Server(server, {
 });
 
 app.use(cors());
-
+const PORT = process.env.PORT || 5000;
 let users = {};
 
 // Expanded user icons (40 icons)
